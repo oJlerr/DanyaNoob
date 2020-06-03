@@ -1,0 +1,269 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.02em;
+}
+div, p, span, form, input, form, textarea{
+	box-sizing: border-box;
+}
+ul,li{
+	display: block;
+	font-weight: bold;
+}
+h1,h2,h3,h4{
+	margin: 0;	
+	height: 0;	
+}
+a{
+	color: #fff;
+}
+.navigation{
+	background-color: #455991;
+	box-shadow:0 0 20px rgba(0,0,0,0.5)
+}
+.navigation .container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 27px 0;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.menu{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.menu li{
+	margin-left:30px;
+}
+.tel{
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+.offer{
+	padding-top: 68px;
+}
+.offer__title{
+	font-weight: bold;
+	font-size: 23px;
+	text-transform: uppercase;
+	padding-bottom: 26px;	
+}
+.offer__text{
+	color: #828899;
+	font-size: 14px;
+	width: 335px;
+	line-height: 1.5em;
+	letter-spacing: 0.022em;
+}
+.cards{
+	padding-top: 25px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+	justify-content: space-between;	
+}
+.card{
+	width: 308px;
+	height: 222px;
+	border: 1px solid #d4d4d4;
+	padding: 28px;
+}
+.card__title{
+	font-size: 17px;
+	font-weight: bold;
+}
+.card__text{
+	line-height: 1.5em;
+	font-size: 15px;
+	padding-top: 20px;	
+}
+.card__shadow{
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	border-radius: 15px;
+}
+.card__size{
+	height: 250px;
+}
+.more{
+	color: #3da9ed;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 3px; 
+}
+.second .container{
+	margin-top: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+.left__title{
+	margin-bottom: 62px;
+	font-weight: bold;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.input:focus{
+	border:1px solid #ebce0d;
+	font-size: 15px;
+	color: #ebce0d;
+	outline: none;
+}
+.input:hover{
+	border:1px solid #ebce0d;
+	font-size: 15px;
+	color: #ebce0d;
+}
+input{
+	display: block;
+	margin-bottom: 10px;
+	padding: 13px;
+	font-size: 15px;
+	width: 238px;
+	color:#ebce0d;
+}
+input::-webkit-input-placeholder{
+	color:#b7b8b9;
+	padding-left: 5px;
+}
+.input:hover::-webkit-input-placeholder{
+	color: #ebce0d;
+
+}
+input:focus{
+	color: #ebce0d;
+	border:1px solid #ebce0d;	
+
+}
+textarea{
+	width: 360px;
+	height: 125px;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	padding-top: 15px;
+	padding-left: 20px;
+	color: #a9aaab;
+}
+input, textarea,button:focus{
+	outline: none;
+	padding: 0;
+	margin: 0;
+}
+.btn{
+	font-size: 15px;
+	width: 165px;
+	background-color: #ebce0d;
+	color:#272c2f;
+	font-weight: bold;
+	display: block;
+	border:none;
+	padding:13px 35px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.form__text{
+	font-size: 12px;
+	color: #84898d;
+	margin-top: 20px;
+}
+.block{
+	background-color: #184c6b;
+	height: 457px;
+	width: 548px;
+	border-radius: 10px;
+	padding: 42px 40px 40px 44px;
+	color:#9fbdd0;
+}
+.block__title{
+	text-transform: uppercase;
+	padding-bottom:30px;
+	font-size: 17px;
+}
+.block__text{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.5em;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+}
+.block__text p{
+	width: 217px;
+}
+.pct{
+	padding-top: 20px;
+}
+.footer{
+	background-color: #455991;
+	color:#fff;
+	margin-top: 4px;
+}
+.foot__list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+	-ms-align-items: center;
+	align-items: center;
+}
+.foot__list p{
+	font-size: 13px;
+}
+.foot__list button{
+	background-color: #455991;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	border:1px solid #fff;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+.sqr{
+	border-radius: 5px;
+	border-color: #fff;
+	padding: 10px 15px;
+}
+.circ{
+	border-radius: 30px;
+	padding: 10px 18px;
+}
+.white{
+	padding: 12px 19px;
+	background-color: #fff;
+	color: #455991;
+	font-size: 12px;
+	border-radius: 3px;
+	letter-spacing: 0;
+}
